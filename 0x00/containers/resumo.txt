@@ -1,4 +1,4 @@
-- O que são contêineres?
+- O que são Contêiners?
 Contêineres, em sistemas operacionais (SO), é um método de rodar múltiplos ambientes, para aplicações ou sistemas, de maneira isolada em um único host. 
 - Para que se usa um contêiner?
 os contêineres permitem empacotar aplicações e sistemas inteiros, com todas suas dependências, de um ambiente para outro – como o ambiente de desenvolvimento para o ambiente de produção.
