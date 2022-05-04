@@ -13,4 +13,4 @@ Em containers temos menos flexibilidade com SO. Se seu SO é Linux, você só po
 - Quais as diferenças entre containers e máquinas virtuais (VMs) ?
 Geralmente, os containers são medidos em megabyte. Eles contêm, no máximo, a aplicação e os arquivos necessários para executá-la. Além disso, eles costumam ser usados para empacotar funções individuais que realizam tarefas específicas, os famosos microsserviços.As máquinas virtuais são medidas em gigabyte. Eles costumam ter seu próprio sistema operacional, o que possibilita a execução simultânea de várias funções com uso intenso de recursos. 
 - Quais são as principais ferramentas e tecnologias de contêiner?
-Docker e Kubernetes
+Docker e Kubernetes, serviços Red Hat
