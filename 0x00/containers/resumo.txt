@@ -1,0 +1,16 @@
+- O que são contêineres?
+Contêineres, em sistemas operacionais (SO), é um método de rodar múltiplos ambientes, para aplicações ou sistemas, de maneira isolada em um único host. 
+- Para que se usa um contêiner?
+os contêineres permitem empacotar aplicações e sistemas inteiros, com todas suas dependências, de um ambiente para outro – como o ambiente de desenvolvimento para o ambiente de produção.
+- Quais são os benefícios dos contêineres?
+Contêineres oferecem uma camada onde é possível empacotar sistemas e aplicações com suas dependências juntos. Inúmeros contêineres podem rodar ao mesmo tempo, em uma mesma máquina, todos compartilhando o kernel do hospedeiro como processos isolados.
+
+Contêineres precisam de pouco espaço (disco e RAM) e processamento do hospedeiro, pois apenas têm o sistema ou aplicativo e algumas dependências satisfeitas, o restante necessário (bibliotecas, binários, softwares e até mesmo o kernel) é compartilhando com o hospedeiro. Tudo isso tomará o corpo de alguns megabytes.
+- Quais são os desafios dos contêineres?
+Uma das principais desvantagens é a segurança, por compartilhar o mesmo kernel, se o kernel tem problemas o container também terá. Isso acontece por que um container é menos isolado que uma VM.
+Em containers temos menos flexibilidade com SO. Se seu SO é Linux, você só poderá usar imagens linux. Já em VM podemos ter uma maquina com Windows mais ter uma virtualização de um Linux.
+
+- Quais as diferenças entre containers e máquinas virtuais (VMs) ?
+Geralmente, os containers são medidos em megabyte. Eles contêm, no máximo, a aplicação e os arquivos necessários para executá-la. Além disso, eles costumam ser usados para empacotar funções individuais que realizam tarefas específicas, os famosos microsserviços.As máquinas virtuais são medidas em gigabyte. Eles costumam ter seu próprio sistema operacional, o que possibilita a execução simultânea de várias funções com uso intenso de recursos. 
+- Quais são as principais ferramentas e tecnologias de contêiner?
+Docker e Kubernetes
